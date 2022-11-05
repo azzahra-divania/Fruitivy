@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Fruitivy.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Fruitivy
 {
@@ -8,6 +9,7 @@ namespace Fruitivy
         {
 
         }
-        //create table di bawah sini
+        //create table di bawah sini (mendaftarkan table dari kelas yg sudah dibuat):
+        public DbSet<Pembeli> pembeli { get; set; }
     }
 }
