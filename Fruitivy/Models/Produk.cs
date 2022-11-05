@@ -9,7 +9,7 @@ namespace Fruitivy.Models
         public int ProdukId { get; set; }
         public string Nama { get; set; }
         public byte[] Picture { get; set; }
-        public int  Stok { get; set; }
+        public int Stok { get; set; }
         public int Harga { get; set; }
         public string Email { get; set; }
      
